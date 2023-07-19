@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		812631992A683478004FB032 /* DotMarioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812631982A683478004FB032 /* DotMarioApp.swift */; };
+		8126319B2A683478004FB032 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8126319A2A683478004FB032 /* ContentView.swift */; };
+		8126319D2A68347A004FB032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8126319C2A68347A004FB032 /* Assets.xcassets */; };
+		812631A02A68347A004FB032 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8126319F2A68347A004FB032 /* Preview Assets.xcassets */; };
+		812631AA2A68347A004FB032 /* DotMarioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812631A92A68347A004FB032 /* DotMarioTests.swift */; };
+		812631B42A68347A004FB032 /* DotMarioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812631B32A68347A004FB032 /* DotMarioUITests.swift */; };
+		812631B62A68347A004FB032 /* DotMarioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812631B52A68347A004FB032 /* DotMarioUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		812631A62A68347A004FB032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8126318D2A683478004FB032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 812631942A683478004FB032;
+			remoteInfo = DotMario;
+		};
+		812631B02A68347A004FB032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8126318D2A683478004FB032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 812631942A683478004FB032;
+			remoteInfo = DotMario;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		812631952A683478004FB032 /* DotMario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DotMario.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		812631982A683478004FB032 /* DotMarioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotMarioApp.swift; sourceTree = "<group>"; };
+		8126319A2A683478004FB032 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8126319C2A68347A004FB032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8126319F2A68347A004FB032 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		812631A52A68347A004FB032 /* DotMarioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DotMarioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		812631A92A68347A004FB032 /* DotMarioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotMarioTests.swift; sourceTree = "<group>"; };
+		812631AF2A68347A004FB032 /* DotMarioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DotMarioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		812631B32A68347A004FB032 /* DotMarioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotMarioUITests.swift; sourceTree = "<group>"; };
+		812631B52A68347A004FB032 /* DotMarioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotMarioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		812631922A683478004FB032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812631A22A68347A004FB032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812631AC2A68347A004FB032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8126318C2A683478004FB032 = {
+			isa = PBXGroup;
+			children = (
+				812631972A683478004FB032 /* DotMario */,
+				812631A82A68347A004FB032 /* DotMarioTests */,
+				812631B22A68347A004FB032 /* DotMarioUITests */,
+				812631962A683478004FB032 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		812631962A683478004FB032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				812631952A683478004FB032 /* DotMario.app */,
+				812631A52A68347A004FB032 /* DotMarioTests.xctest */,
+				812631AF2A68347A004FB032 /* DotMarioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		812631972A683478004FB032 /* DotMario */ = {
+			isa = PBXGroup;
+			children = (
+				812631982A683478004FB032 /* DotMarioApp.swift */,
+				8126319A2A683478004FB032 /* ContentView.swift */,
+				8126319C2A68347A004FB032 /* Assets.xcassets */,
+				8126319E2A68347A004FB032 /* Preview Content */,
+			);
+			path = DotMario;
+			sourceTree = "<group>";
+		};
+		8126319E2A68347A004FB032 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8126319F2A68347A004FB032 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		812631A82A68347A004FB032 /* DotMarioTests */ = {
+			isa = PBXGroup;
+			children = (
+				812631A92A68347A004FB032 /* DotMarioTests.swift */,
+			);
+			path = DotMarioTests;
+			sourceTree = "<group>";
+		};
+		812631B22A68347A004FB032 /* DotMarioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				812631B32A68347A004FB032 /* DotMarioUITests.swift */,
+				812631B52A68347A004FB032 /* DotMarioUITestsLaunchTests.swift */,
+			);
+			path = DotMarioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		812631942A683478004FB032 /* DotMario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 812631B92A68347A004FB032 /* Build configuration list for PBXNativeTarget "DotMario" */;
+			buildPhases = (
+				812631912A683478004FB032 /* Sources */,
+				812631922A683478004FB032 /* Frameworks */,
+				812631932A683478004FB032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DotMario;
+			productName = DotMario;
+			productReference = 812631952A683478004FB032 /* DotMario.app */;
+			productType = "com.apple.product-type.application";
+		};
+		812631A42A68347A004FB032 /* DotMarioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 812631BC2A68347A004FB032 /* Build configuration list for PBXNativeTarget "DotMarioTests" */;
+			buildPhases = (
+				812631A12A68347A004FB032 /* Sources */,
+				812631A22A68347A004FB032 /* Frameworks */,
+				812631A32A68347A004FB032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				812631A72A68347A004FB032 /* PBXTargetDependency */,
+			);
+			name = DotMarioTests;
+			productName = DotMarioTests;
+			productReference = 812631A52A68347A004FB032 /* DotMarioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		812631AE2A68347A004FB032 /* DotMarioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 812631BF2A68347A004FB032 /* Build configuration list for PBXNativeTarget "DotMarioUITests" */;
+			buildPhases = (
+				812631AB2A68347A004FB032 /* Sources */,
+				812631AC2A68347A004FB032 /* Frameworks */,
+				812631AD2A68347A004FB032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				812631B12A68347A004FB032 /* PBXTargetDependency */,
+			);
+			name = DotMarioUITests;
+			productName = DotMarioUITests;
+			productReference = 812631AF2A68347A004FB032 /* DotMarioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8126318D2A683478004FB032 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					812631942A683478004FB032 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					812631A42A68347A004FB032 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 812631942A683478004FB032;
+					};
+					812631AE2A68347A004FB032 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 812631942A683478004FB032;
+					};
+				};
+			};
+			buildConfigurationList = 812631902A683478004FB032 /* Build configuration list for PBXProject "DotMario" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8126318C2A683478004FB032;
+			productRefGroup = 812631962A683478004FB032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				812631942A683478004FB032 /* DotMario */,
+				812631A42A68347A004FB032 /* DotMarioTests */,
+				812631AE2A68347A004FB032 /* DotMarioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		812631932A683478004FB032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812631A02A68347A004FB032 /* Preview Assets.xcassets in Resources */,
+				8126319D2A68347A004FB032 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812631A32A68347A004FB032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812631AD2A68347A004FB032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		812631912A683478004FB032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8126319B2A683478004FB032 /* ContentView.swift in Sources */,
+				812631992A683478004FB032 /* DotMarioApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812631A12A68347A004FB032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812631AA2A68347A004FB032 /* DotMarioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812631AB2A68347A004FB032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812631B62A68347A004FB032 /* DotMarioUITestsLaunchTests.swift in Sources */,
+				812631B42A68347A004FB032 /* DotMarioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		812631A72A68347A004FB032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 812631942A683478004FB032 /* DotMario */;
+			targetProxy = 812631A62A68347A004FB032 /* PBXContainerItemProxy */;
+		};
+		812631B12A68347A004FB032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 812631942A683478004FB032 /* DotMario */;
+			targetProxy = 812631B02A68347A004FB032 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		812631B72A68347A004FB032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		812631B82A68347A004FB032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		812631BA2A68347A004FB032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DotMario/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yasuyama.DotMario;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		812631BB2A68347A004FB032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DotMario/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yasuyama.DotMario;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		812631BD2A68347A004FB032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yasuyama.DotMarioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DotMario.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DotMario";
+			};
+			name = Debug;
+		};
+		812631BE2A68347A004FB032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yasuyama.DotMarioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DotMario.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DotMario";
+			};
+			name = Release;
+		};
+		812631C02A68347A004FB032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yasuyama.DotMarioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DotMario;
+			};
+			name = Debug;
+		};
+		812631C12A68347A004FB032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yasuyama.DotMarioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DotMario;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		812631902A683478004FB032 /* Build configuration list for PBXProject "DotMario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812631B72A68347A004FB032 /* Debug */,
+				812631B82A68347A004FB032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		812631B92A68347A004FB032 /* Build configuration list for PBXNativeTarget "DotMario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812631BA2A68347A004FB032 /* Debug */,
+				812631BB2A68347A004FB032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		812631BC2A68347A004FB032 /* Build configuration list for PBXNativeTarget "DotMarioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812631BD2A68347A004FB032 /* Debug */,
+				812631BE2A68347A004FB032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		812631BF2A68347A004FB032 /* Build configuration list for PBXNativeTarget "DotMarioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812631C02A68347A004FB032 /* Debug */,
+				812631C12A68347A004FB032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8126318D2A683478004FB032 /* Project object */;
+}
